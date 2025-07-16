@@ -1,0 +1,143 @@
+.summary-wrapper {
+    max-width: 480px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: system-ui, sans-serif;
+    color: #111;
+}
+
+.summary-header {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.summary-check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    color: green;
+}
+
+.summary-subtext {
+    font-size: 14px;
+    color: #444;
+}
+
+.info-box {
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin: 16px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.visited-stops {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.visited-stops ul {
+    background: white;
+    border-radius: 12px;
+    padding: 16px 34px;
+    list-style-type: disc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.visited-stops li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.rating-stars {
+    display: flex;
+    gap: 6px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.rating-stars input {
+    display: none;
+}
+
+.rating-stars label {
+    cursor: pointer;
+}
+
+.submit-button {
+    margin-bottom: 20px;
+    background-color: #f2c57c;
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-box {
+    background: white;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 320px;
+}
+
+.popup-close {
+    margin-top: 16px;
+    padding: 10px 16px;
+    background-color: #f2c57c;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.feedback-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.textarea-container {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    padding: 12px 16px;
+}
+
+.textarea-container textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: inherit;
+    resize: none;
+    background: none;
+}
