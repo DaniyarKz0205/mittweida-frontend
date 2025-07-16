@@ -40,7 +40,7 @@ This project is a web application that displays day-trip tour routes in Mittweid
 ## 🔁 Backend Connection
 
 To store reviews, this app sends POST requests to a backend server.  
-Make sure to clone and run the backend repo: [Review App](https://github.com/your-username/review-app)
+Make sure to clone and run the backend repo: [Review App]([https://github.com/your-username/review-app](https://github.com/DaniyarKz0205/mittweida-backend))
 
 ---
 
