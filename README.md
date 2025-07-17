@@ -8,7 +8,7 @@ This project is a web application that displays day-trip tour routes in Mittweid
 
 1. **Clone this repository**:
    ```bash
-   git clone <this-repo-url>
+   git clone https://github.com/DaniyarKz0205/mittweida-frontend.git
    cd mittweida-guide
    ```
 
